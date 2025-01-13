@@ -57,17 +57,17 @@ For `app1`:
 
 ```bash
 cd ../app1
-npm start
+npm run dev
 ```
 
 For `app2`:
 
 ```bash
 cd ../app2
-npm start
+npm run dev
 ```
 
-Each application will run on default ports 3000 and 3002, respectively.
+Each application will run on default ports assigned by Vite.
 
 ## Usage
 
@@ -92,11 +92,12 @@ Each application will run on default ports 3000 and 3002, respectively.
 ## Notes
 
 - Ensure the server is running before starting the React applications.
-- To change the default ports, update the configurations in `server.js` and `App.tsx` files.
+- To change the default ports, update the configurations in `server.js` and `vite.config.js` files.
 
 ## Resources
 
 - [Socket.IO Documentation](https://socket.io/docs/)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Vite Documentation](https://vitejs.dev/)
 
 This sample project is designed to help you understand real-time communication between React applications using WebSocket.
